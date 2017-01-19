@@ -3,7 +3,7 @@
 const pg = require('pg');
 const express = require('express');
 const bodyParser = require('body-parser');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7000;
 const app = express();
 const conString = process.env.DATABASE_URL || 'postgres://localhost:5432';
 
